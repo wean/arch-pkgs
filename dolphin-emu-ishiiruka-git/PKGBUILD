@@ -1,7 +1,7 @@
 pkgbase=dolphin-emu-ishiiruka-git
 pkgname=('dolphin-emu-ishiiruka-git' 'dolphin-emu-ishiiruka-cli-git') #Disabled because https://github.com/Tinob/Ishiiruka/issues/97 'dolphin-emu-ishiiruka-qt-git')
-pkgver=r12092.02dfa48c7
-pkgrel=2
+pkgver=r12173.c27599318
+pkgrel=1
 pkgdesc='A GameCube / Wii / Triforce emulator'
 arch=('x86_64')
 url='https://forums.dolphin-emu.org/Thread-unofficial-ishiiruka-dolphin-custom-version'
@@ -15,7 +15,7 @@ depends=('alsa-lib' 'bluez-libs' 'cairo' 'enet' 'gcc-libs' 'gdk-pixbuf2'
 makedepends=('cmake' 'git' 'qt5-base')
 optdepends=('pulseaudio: PulseAudio backend')
 options=('!emptydirs')
-source=('dolphin-emu::git+https://github.com/Tinob/Ishiiruka.git')
+source=('dolphin-emu::git+https://github.com/wean/Ishiiruka.git')
 sha256sums=('SKIP')
 
 pkgver() {
